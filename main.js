@@ -7,6 +7,6 @@ for (let n = 1; n <= 100; n++) {
     }else if (n % 5 == 0){
         console.log("Buzz")
     }else{
-        console.log(n)
+        console.log(String(n))
     }
-}
+  }
